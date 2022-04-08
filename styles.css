@@ -76,26 +76,3 @@ footer {
 	left: 0;
 	bottom: 0;
 }
-
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-}
-
-li:hover {
-    text-decoration: underline;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-p {
-    color: white;
-}
