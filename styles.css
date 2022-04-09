@@ -3,6 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
+    cursor: none;
 }
 
 .header {
@@ -29,6 +30,7 @@ button {
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor: none;
 }
 
 button:hover {
@@ -63,6 +65,8 @@ h2 {
     height: 440px;
     border-radius: 20px;
     margin-left: 50px;
+    position: relative;
+    z-index: -3;
 }
 
 footer {
@@ -75,4 +79,22 @@ footer {
     height: 40px;
 	left: 0;
 	bottom: 0;
+}
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+    backdrop-filter: grayscale(100%);
+}
+.linkGrow {
+    transform: scale(2);
+    background: white;
 }
