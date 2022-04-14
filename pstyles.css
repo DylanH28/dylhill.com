@@ -20,13 +20,16 @@ body {
 }
 button {
     width: 80px;
-    height: 30px;
+    height: 32px;
     color: black;
     background-color: white;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
+}
+button > submit {
+    height: 40px;
 }
 button:hover {
     color: white;

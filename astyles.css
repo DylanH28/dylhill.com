@@ -5,7 +5,6 @@ body {
     background-color: black;
     cursor: none;
 }
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -14,24 +13,22 @@ body {
     padding: 8px;
     background-color: rgb(255, 255, 255, .2);
 }
-
 .intials {
     color: white;
     font-size: 30px;
     font-weight: bold;
 }
-
 button {
     width: 80px;
-    height: 30px;
+    height: 32px;
     color: black;
     background-color: white;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
+    cursor: none;
 }
-
 button:hover {
     color: white;
     background-color: black;
@@ -39,9 +36,12 @@ button:hover {
 }
 .container {
     width: 400px;
-    height: 280px;
+    height: 300px;
     margin: auto;
     text-align: center;
+}
+.containerTwo {
+    display: flex;
 }
 h1 {
     color: white;
@@ -50,8 +50,12 @@ h1 {
     display: flex;
     justify-content: center;
 }
-p {
+h3, p {
     color: white;
+}
+.input {
+    color: white;
+    margin-bottom: 10px;
 }
 footer {
     color: white;
@@ -75,7 +79,7 @@ footer {
     transition: all 0.3s ease;
     transition-property: background, transform;
     transform-origin: 100% 100%;
-    z-index: -1;
+    z-index: -2;
     backdrop-filter: grayscale(100%);
 }
 .linkGrow {

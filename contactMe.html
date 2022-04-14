@@ -12,19 +12,40 @@
     <div class="header">
         <div class="intials">DH</div>
         <div class="buttons">
-            <a href="./index.html"><button class="home">Home</button></a>
+            <a href="./index.html"><button>Home</button></a>
             <a href="./portfolio.html"><button>Portfolio</button></a>
             <a href="./aboutMe.html"><button>About</button></a>
             <a href="./contactMe.html"><button>Contact</button></a>
         </div>
     </div>
     <div class="container">
-        <h1>Contact Me</h1>
-        <p>
-            Feel free to contact me about any freelance/job opportunities or questions at
-            <br><br><b>dylanhill1228@gmail.com</b>
-        </p>
-    </div>
+      <h1>Contact Me</h1>
+      <h3>Fill in the form below to send me a message.</h3>
+        <div class="settings">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <input type="hidden" name="access_key" value="6bea923a-0faa-4529-97e7-269fe6e56843" />
+            <input type="hidden" name="subject" value="dylhill.com"/>
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+            <div class="input">
+              <label for="name">Name</label>
+              <br />
+              <input type="text" name="name" id="name" required/>
+            </div>
+            <div class="input">
+              <label for="email" >Email Address</label>
+              <br />
+              <input type="email" name="email" id="email" required/>
+            </div>
+            <div class="input">
+              <label for="message">Message</label>
+              <br />
+              <textarea rows="5" name="message" id="message" required></textarea>
+            </div>
+            <div class="submitButton"><button type="submit">Send Message</button></div>
+            <p id="result"></p>
+          </form>
+        </div>
+      </div>
     <footer>
         <p>Copyright &copy; 
             <script>document.write(new Date().getFullYear())</script>

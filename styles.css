@@ -5,7 +5,6 @@ body {
     background-color: black;
     cursor: none;
 }
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -14,16 +13,14 @@ body {
     padding: 8px;
     background-color: rgb(255, 255, 255, .2);
 }
-
 .intials {
     color: white;
     font-size: 30px;
     font-weight: bold;
 }
-
 button {
     width: 80px;
-    height: 30px;
+    height: 32px;
     color: black;
     background-color: white;
     border: none;
@@ -32,26 +29,22 @@ button {
     font-weight: bold;
     cursor: none;
 }
-
 button:hover {
     color: white;
     background-color: black;
     box-shadow: 0 0 20px white, 0 0 20px white, 0 0 20px white;
 }
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 220px;
 }
-
 h1 {
     color: white;
     font-size: 48px;
     font-weight: bold;
 }
-
 h2 {
     color: white;
     width: 340px;
@@ -59,7 +52,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
-
 .image {
     width: 302px;
     height: 440px;
@@ -68,7 +60,6 @@ h2 {
     position: relative;
     z-index: -3;
 }
-
 footer {
     color: white;
     font-size: 14px;
