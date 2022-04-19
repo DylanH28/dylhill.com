@@ -38,10 +38,6 @@ button:hover {
     width: 400px;
     height: 300px;
     margin: auto;
-    text-align: center;
-}
-.containerTwo {
-    display: flex;
 }
 h1 {
     color: white;
@@ -50,12 +46,8 @@ h1 {
     display: flex;
     justify-content: center;
 }
-h3, p {
+h3, p, label {
     color: white;
-}
-.input {
-    color: white;
-    margin-bottom: 10px;
 }
 footer {
     color: white;
@@ -85,4 +77,14 @@ footer {
 .linkGrow {
     transform: scale(2);
     background: white;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 4px;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:none;
 }
