@@ -34,7 +34,7 @@ async function handleSubmit(event) {
     }
   }).then(response => {
     if (response.ok) {
-      status.innerHTML = "Thanks for your submission!";
+      status.innerHTML = "Thanks for reaching out!";
       form.reset()
     } else {
       response.json().then(data => {

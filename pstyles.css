@@ -40,6 +40,7 @@ button:hover {
     width: 400px;
     height: 280px;
     margin: auto;
+    margin-top: 40px;
     border: 2px solid white;
     border-radius: 20px;
 }
@@ -98,4 +99,24 @@ footer {
 .linkGrow {
     transform: scale(2);
     background: white;
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+    .header {
+        height: 50px;
+    }
+    .intials {
+        font-size: 20px;
+    }
+    button {
+        width: 70px;
+        height: 30px;
+    }
+    .cursor {
+        display: none;
+    }
+    .container {
+        width: 360px;
+    }
 }

@@ -49,8 +49,6 @@ h2 {
     color: white;
     width: 340px;
     font-size: 18px;
-    display: flex;
-    flex-wrap: wrap;
 }
 .image {
     width: 302px;
@@ -88,4 +86,38 @@ footer {
 .linkGrow {
     transform: scale(2);
     background: white;
+}
+
+/*Mobile*/
+@media (max-width: 600px) {
+    .header {
+        height: 50px;
+    }
+    .intials {
+        font-size: 20px;
+    }
+    button {
+        width: 70px;
+        height: 30px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .cursor {
+        display: none;
+    }
+    .image {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
 }
